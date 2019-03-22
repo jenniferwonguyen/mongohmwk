@@ -23,7 +23,7 @@ router.get('/', function(req, res) {
                 console.log(articles);
                 let hbsObj = {
                     title: 'All the News That\'s Fit to Scrape',
-                    subtitle: 'Hacker News Edition',
+                    subtitle: 'NYC TIMES',
                     articles: articles
                 };
                 res.render('index', hbsObj);
@@ -59,3 +59,6 @@ router.get('/saved', function(req, res) {
 router.use('/api', require('./api'));
 
 module.exports = router;
+
+
+//many trial and error and debugging to 

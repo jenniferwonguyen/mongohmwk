@@ -61,3 +61,6 @@ router.delete('/:id', function(req, res) {
 });
 
 module.exports = router;
+
+
+//debugged but can't seem to get the routes consistenly working even though my tutor looked over and could not see err
