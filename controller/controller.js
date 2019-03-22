@@ -70,7 +70,7 @@ router.get('/articles', function(req, res) {
     });
 });
 
-//get the articles we scraped from the mongoDB in JSON
+//get the articles scraped from the mongoDB in JSON
 router.get('/articles-json', function(req, res) {
     Article.find({}, function(err, doc) {
         if (err) {
@@ -96,3 +96,7 @@ router.get('/clearAll', function(req, res) {
 
 
 module.exports = router;
+
+
+//debugged and routes code and syntax show no error but even with help of searching and tutor, unable to succeed
+//able to scrape and populate
