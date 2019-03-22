@@ -38,3 +38,6 @@ var port = process.env.PORT || 3000;
 app.listen(port, function(){
   console.log('Listening on PORT ' + port);
 });
+
+
+//changed to port 3000 because 8000 and 8080 was a fail- changed ports and db just to see my functionality
